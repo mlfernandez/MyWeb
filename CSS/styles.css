@@ -1,0 +1,127 @@
+.body {
+    background-color: rgb(151, 126, 151);
+    height: 15em;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/*navegator*/
+
+.container-fluid {
+    background-color: rgb(151, 126, 151);
+    /*height: 2em;*/
+}
+
+
+.navbar-brand {
+    background-color: rgb(151, 126, 151);
+}
+
+.nav-item {
+    font-size: 1em;
+    font-weight:600;
+}
+
+.display {
+    background-color: rgb(151, 126, 151);
+    /*height: 15em;*/
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.screen {
+
+    background-color: rgb(151, 126, 151);
+    margin-top: -20em;
+    
+}
+
+.fontsize {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 1em;
+    width: auto;
+    align-items: center;
+    list-style: none;
+    margin-top: 30em;
+    position: fixed;
+       
+}
+
+.blanck {
+    height: 2em;
+    width: 2em;
+}
+
+
+.socialRedes {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.iconos {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+/* HTML CONTACT */
+
+.enviar {
+    margin-top: 2em;
+    text-align: center;
+}
+
+form {
+    margin-top: 15em;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:30%;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 30em) {
+    .envelope {
+        width: 20%;
+        display: inline-flex;
+        margin-bottom: 5em;
+    }
+    .btn {
+        display: inline-flex;
+        margin-bottom: 7em;
+    }
+
+    .footer {
+        margin-top: 35em;
+    }
+
+}
