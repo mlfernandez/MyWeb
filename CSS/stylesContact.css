@@ -44,7 +44,7 @@
 .screen {
 
     background-color: rgb(151, 126, 151);
-    margin-top: -20em;
+    margin-top: -10em;
     
 }
 
@@ -107,6 +107,7 @@ form {
     border-radius: 10px;
     width:30%;
     align-items: center;
+    margin-top: 1em;
 }
 
 .row {
@@ -144,6 +145,7 @@ p {
     text-shadow: 0 5px 15px;
     border: 5px solid black;
     border-top: none;
+    text-align: center;
 }
 
 p span {
@@ -151,12 +153,12 @@ p span {
     display: inline-block;
 }
 
-p span:nth-child(6) {
+p span:nth-child(8) {
     color: #fff;
     animation: animate 3s alternate infinite;
 }
 
-p span:nth-child(7) {
+p span:nth-child(9) {
     color: #fff;
     animation: animate 3s alternate infinite;
 }
@@ -201,15 +203,6 @@ p span:nth-child(7) {
 
     }
 
-    /*.textAbout1:hover {
-        background-color: grey;
-        border: 10em black;
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        
-    }*/
-
     .fontContactMe {
         font-size: 2em;
     }
@@ -231,4 +224,39 @@ p span:nth-child(7) {
     }
 }
 
+@media only screen and (max-width: 1040px) {
+
+    .btn {
+        display: inline-flex;
+        margin-bottom: 7em;
+    }
+
+    .footer {
+        margin-top: 35em;
+    }
+    .textAbout {
+        font-size: 1em;
+
+    }
+
+    .fontContactMe {
+        font-size: 2em;
+    }
+    
+    p {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 0 20px;
+        font-family: sans-serif;
+        font-size: 1.5em;
+        text-shadow: 0 5px 15px;
+        border: 5px solid black;
+        border-top: none;
+    
+    
+    }
+}
 
