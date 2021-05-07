@@ -177,4 +177,54 @@ form {
     
 }
 
+p  {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0 20px;
+    font-family: sans-serif;
+    font-size: 4em;
+    text-shadow: 0 5px 15px;
+    transform: uppercase;
+    border: 5px solid black;
+    border-top: none;
+    align-items: center;
+    align-content: center;
 
+}
+
+p spam {
+    position: relative;
+    display: inline-block;
+}
+
+p span:nth-child(4) {
+    color: #fff;
+    animation: animate 3s alternate infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: translateY(0px);
+    }
+    40%
+    {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%
+    {
+        transform: translateY(-100px);
+    }
+    60%
+    {
+        transform: translateY(0px) rotate(360deg);
+    }
+    100%
+    {
+        transform: translateY(0px);
+    }
+
+}
