@@ -108,6 +108,35 @@ form {
     align-items: center;
 }
 
+/* ABOUT ME */
+
+.textAbout {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: -3em;
+}
+
+.textAbout1:hover {
+    background-color: grey;
+    border: 10em black;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    
+}
+
+.textAbout2:hover {
+    background-color: thistle;
+    border: 10em black;
+    
+}
+
 
 @media only screen and (max-width: 30em) {
     .envelope {
@@ -123,5 +152,17 @@ form {
     .footer {
         margin-top: 35em;
     }
+    .textAbout {
+        font-size: 1em;
 
+    }
+
+    .textAbout1:hover {
+        background-color: grey;
+        border: 10em black;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        
+    }
 }
