@@ -98,6 +98,7 @@
 
 form {
     margin-top: 15em;
+       
 }
 
 .button {
@@ -106,6 +107,14 @@ form {
     border-radius: 10px;
     width:30%;
     align-items: center;
+}
+
+.row {
+    align-items: center;
+}
+
+.fontContactMe {
+    font-size: 4em;
 }
 
 /* ABOUT ME */
@@ -139,11 +148,7 @@ form {
 
 
 @media only screen and (max-width: 30em) {
-    .envelope {
-        width: 20%;
-        display: inline-flex;
-        margin-bottom: 5em;
-    }
+
     .btn {
         display: inline-flex;
         margin-bottom: 7em;
@@ -165,4 +170,11 @@ form {
         transform: scale(1.1);
         
     }
+
+    .fontContactMe {
+        font-size: 2em;
+    }
+    
 }
+
+

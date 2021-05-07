@@ -65,7 +65,7 @@
                 <section class="mb-4">
 
                 <!--Section heading-->
-                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+                    <h2 class="h1-responsive font-weight-bold text-center my-4 fontContactMe">Contact me</h2>
                     
                     <!--Section description-->
                     <p class="text-center w-responsive mx-auto mb-5">If you want to know anything else about me or my works, do not hesitate to contact me directly in this form.</p>
@@ -74,22 +74,22 @@
                     <div class="row">
 
                         <!--Grid column-->
-                        <div class="col-md-9 mb-md-0 mb-5">
+                        <div class="col-md-12 mb-md-0 mb-12">
                             <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
                                 <!--Grid row-->
                                 <div class="row">
 
                                     <!--Grid column-->
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-12">
                                             <input type="text" id="name" name="name" class="form-control">
                                             <label for="name" class="">Your name</label>
                                         </div>
                                     </div>
 
                                     <!--Grid column-->
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="md-form mb-0">
                                             <input type="text" id="email" name="email" class="form-control">
                                             <label for="email" class="">Your email</label>
@@ -115,22 +115,15 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-secondary btn-mg button" onclick="document.getElementById('contact-form').submit();">Send</a>
+                                
+                                
+                                </div>
                             </form>
-                    </div>
-
-                    <div class="col-md-3 text-center">
-                            
-                        <div class="envelope"><img src="img/envelopeimage.svg" style=width:80% alt="emailsendicono"></div>
-
-                        </div>
-                        
-                        <div class="text-center text-md-left">
-                            <a class="btn btn-secondary btn-mg button" onclick="document.getElementById('contact-form').submit();">Send</a>
-                        </div>
-                            
-                        <div class="status"></div>
                         </div>
 
+              
                 </section>
                 
 
