@@ -177,9 +177,9 @@ form {
     
 }
 
-p  {
+p {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -187,15 +187,13 @@ p  {
     font-family: sans-serif;
     font-size: 4em;
     text-shadow: 0 5px 15px;
-    transform: uppercase;
     border: 5px solid black;
     border-top: none;
-    align-items: center;
-    align-content: center;
+
 
 }
 
-p spam {
+p span {
     position: relative;
     display: inline-block;
 }
