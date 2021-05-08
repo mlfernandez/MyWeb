@@ -27,7 +27,7 @@ Realización de una web personal como proyecto para el bootcamp de Full Stack De
 <a name="id2"></a>
 ### Sobre el desafío
 
-Mi elección fue la consola Game & Watch de Nintendo con el juego Donkey Kong.
+Para mí fue todo un desafío poder lograr que sea responsive. He utlizado tanto Bootstrap, medias querys y flex.
 
 
 
@@ -46,12 +46,16 @@ Para la realización de este trabajo contamos con las siguientes herramientas y 
 
 | <img src="img/github2.png" alt="GitHub" width="30"/> | GitHub | 
 
+| <img src="img/bootstrap.png" alt="Bootstrap" width="30"/> | Bootstrap | 
+
+| <img src="img/javascrip.png" alt="JavaScrip" width="30"/> | JavaScrip | 
+
 <br>
 
 <a name="id4"></a>
 ### Visita la página del proyecto en GitHub
 
-[My Personal Web Page](https://mlfernandez.github.io/MyPersonalWeb/)
+[My Personal Web Page](https://mlfernandez.github.io/MyWeb/index.html)
 
 
 <br>
