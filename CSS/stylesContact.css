@@ -15,7 +15,6 @@
 
 .container-fluid {
     background-color: rgb(151, 126, 151);
-    /*height: 2em;*/
 }
 
 
@@ -30,7 +29,6 @@
 
 .display {
     background-color: rgb(151, 126, 151);
-    /*height: 15em;*/
     width: auto;
     display: flex;
     flex-direction: column;
@@ -42,10 +40,8 @@
 }
 
 .screen {
-
     background-color: rgb(151, 126, 151);
     margin-top: -10em;
-    
 }
 
 .fontsize {
@@ -62,7 +58,6 @@
     list-style: none;
     margin-top: 30em;
     position: fixed;
-       
 }
 
 .blanck {
@@ -219,8 +214,6 @@ p span:nth-child(9) {
         text-shadow: 0 5px 15px;
         border: 5px solid black;
         border-top: none;
-    
-    
     }
 }
 
@@ -232,11 +225,10 @@ p span:nth-child(9) {
     }
 
     .footer {
-        margin-top: 35em;
+        margin-top: 28em;
     }
     .textAbout {
         font-size: 1em;
-
     }
 
     .fontContactMe {
@@ -251,12 +243,21 @@ p span:nth-child(9) {
         margin: 0;
         padding: 0 20px;
         font-family: sans-serif;
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-shadow: 0 5px 15px;
         border: 5px solid black;
         border-top: none;
-    
-    
     }
+
+    .text-center {
+       
+        width: auto;
+        height: 23em;
+    }
+
+    .row {
+        margin-bottom: -0.9em;
+    }
+
 }
 

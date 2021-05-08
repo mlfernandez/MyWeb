@@ -8,16 +8,13 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-
 }
 
 /*navegator*/
 
 .container-fluid {
     background-color: rgb(151, 126, 151);
-    /*height: 2em;*/
 }
-
 
 .navbar-brand {
     background-color: rgb(151, 126, 151);
@@ -30,7 +27,6 @@
 
 .display {
     background-color: rgb(151, 126, 151);
-    /*height: 15em;*/
     width: auto;
     display: flex;
     flex-direction: column;
@@ -38,14 +34,11 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-
 }
 
 .screen {
-
     background-color: rgb(151, 126, 151);
     margin-top: -20em;
-    
 }
 
 .fontsize {
@@ -61,8 +54,7 @@
     align-items: center;
     list-style: none;
     margin-top: 30em;
-    position: fixed;
-       
+    position: fixed;   
 }
 
 .blanck {
@@ -70,13 +62,11 @@
     width: 2em;
 }
 
-
 .socialRedes {
     flex-direction: row;
     display: flex;
     align-items: center;
     text-align: center;
-
 }
 
 .iconos {
@@ -86,21 +76,6 @@
     text-align: center;
     width: auto;
     height: auto;
-}
-
-
-
-
-.textAbout {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    width: auto;
-    height: auto;
-    margin-top: -3em;
 }
 
 p {
@@ -154,9 +129,7 @@ p span:nth-child(8) {
     {
         transform: translateY(0px);
     }
-
 }
-
 
 .wrapper {
     width: 100%;
@@ -189,10 +162,12 @@ p span:nth-child(8) {
     z-index: -1;
     transition: all 0.35s;
   }
+
   .item:nth-of-type(4n+1) {
     transform: scale(0.8, 0.8) rotate(5deg);
     transition: all 0.35s;
   }
+
   .item:nth-of-type(4n+1) .polaroid:before {
     transform: rotate(6deg);
     height: 20%;
@@ -201,10 +176,12 @@ p span:nth-child(8) {
     right: 12px;
     box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
   }
+
   .item:nth-of-type(4n+2) {
     transform: scale(0.8, 0.8) rotate(-5deg);
     transition: all 0.35s;
   }
+
   .item:nth-of-type(4n+2) .polaroid:before {
     transform: rotate(-6deg);
     height: 20%;
@@ -213,10 +190,12 @@ p span:nth-child(8) {
     left: 12px;
     box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
   }
+
   .item:nth-of-type(4n+4) {
     transform: scale(0.8, 0.8) rotate(3deg);
     transition: all 0.35s;
   }
+
   .item:nth-of-type(4n+4) .polaroid:before {
     transform: rotate(4deg);
     height: 20%;
@@ -225,10 +204,12 @@ p span:nth-child(8) {
     right: 12px;
     box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
   }
-  .item:nth-of-type(4n+3) {
+
+.item:nth-of-type(4n+3) {
     transform: scale(0.8, 0.8) rotate(-3deg);
     transition: all 0.35s;
   }
+
   .item:nth-of-type(4n+3) .polaroid:before {
     transform: rotate(-4deg);
     height: 20%;
@@ -237,11 +218,13 @@ p span:nth-child(8) {
     left: 12px;
     box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
   }
+
   .item:hover {
     filter: none;
     transform: scale(1, 1) rotate(0deg) !important;
     transition: all 0.35s;
   }
+
   .item:hover .polaroid:before {
     content: '';
     position: absolute;
@@ -266,15 +249,14 @@ p span:nth-child(8) {
     }
 
     .footer {
-        margin-top: 35em;
+        margin-top: 28em;
     }
     .textAbout {
-        font-size: 1em;
-
+      font-size: 1em;
     }
 
     .fontContactMe {
-        font-size: 2em;
+      font-size: 2em;
     }
     
     p {
@@ -285,11 +267,9 @@ p span:nth-child(8) {
         margin: 0;
         padding: 0 20px;
         font-family: sans-serif;
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-shadow: 0 5px 15px;
         border: 5px solid black;
         border-top: none;
-    
-    
-    }
+      }
 }

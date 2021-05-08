@@ -186,7 +186,7 @@ p span:nth-child(7) {
 }
 
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 30em) {
 
     .btn {
         display: inline-flex;
@@ -194,21 +194,11 @@ p span:nth-child(7) {
     }
 
     .footer {
-        margin-top: 35em;
+        margin-top: 28em;
     }
     .textAbout {
         font-size: 1em;
-
     }
-
-    /*.textAbout1:hover {
-        background-color: grey;
-        border: 10em black;
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        
-    }*/
 
     .fontContactMe {
         font-size: 2em;
@@ -222,11 +212,9 @@ p span:nth-child(7) {
         margin: 0;
         padding: 0 20px;
         font-family: sans-serif;
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-shadow: 0 5px 15px;
         border: 5px solid black;
         border-top: none;
-    
-    
     }
 }
