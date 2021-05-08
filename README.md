@@ -46,9 +46,9 @@ Para la realización de este trabajo contamos con las siguientes herramientas y 
 
 | <img src="img/github2.png" alt="GitHub" width="30"/> | GitHub | 
 
-| <img src="img/bootstrap.png" alt="Bootstrap" width="30"/> | Bootstrap | 
+| <img src="img/bootstrap2.png" alt="Bootstrap" width="30"/> | Bootstrap | 
 
-| <img src="img/javascrip.png" alt="JavaScrip" width="30"/> | JavaScrip | 
+| <img src="img/javascript2.png" alt="JavaScript" width="30"/> | JavaScript | 
 
 <br>
 
